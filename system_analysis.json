@@ -1,0 +1,57 @@
+{
+  "domains": {
+    "git_workflow": {
+      "score": 12,
+      "confidence": 0.364
+    },
+    "data_scraping": {
+      "score": 9,
+      "confidence": 0.273
+    },
+    "visualization": {
+      "score": 6,
+      "confidence": 0.182
+    },
+    "security_osint": {
+      "score": 4,
+      "confidence": 0.121
+    },
+    "infrastructure": {
+      "score": 2,
+      "confidence": 0.061
+    },
+    "authentication": {
+      "score": 0,
+      "confidence": 0.0
+    },
+    "contract_intelligence": {
+      "score": 0,
+      "confidence": 0.0
+    }
+  },
+  "invariants": [
+    "I1: Git repository must have valid remote origin pointing to github.com/toxicwind/k3-capacity-hack",
+    "I2: PAT must be available in filesystem or environment for any GitHub operation",
+    "I3: SAM.gov umbrella API key must remain valid (O4kzViWGVYNumPqhAzUhYGiZZZwW3RKUEYJOI6ii)",
+    "I4: CDP browser must be accessible at 127.0.0.1:9223 for fallback scraping",
+    "I5: /mnt/agents/output must have write permissions and survive session resets",
+    "I6: USASpending API must remain open (no auth required)",
+    "I7: Shodan API key must have >0 credits for search operations",
+    "I8: GitHub API (api.github.com) must be reachable from sandbox",
+    "I9: Git transport (github.com:443) may be flaky \u2014 fallback to Contents API required",
+    "I10: Kernel server must be alive at 127.0.0.1:8888 for IPython execution"
+  ],
+  "failures": [
+    "F1: I2 violated \u2014 PAT missing from all expected locations (/mnt/agents/.secrets, env, etc.)",
+    "F2: I3 stressed \u2014 SGS API works but v2 API returns 0 results for NAICS search (parameter mismatch)",
+    "F3: I5 stressed \u2014 FUSE mount truncates at 100MiB, large writes crash connection",
+    "F4: I7 violated \u2014 Shodan credits burned on noise queries (26/32 used, mostly ComfyUI spam)",
+    "F5: I9 confirmed \u2014 git clone/push to github.com fails with TLS errors, must use API fallback",
+    "F6: I10 stressed \u2014 IPython kernel dies on >30s silent commands",
+    "F7: I1 violated \u2014 local repo has no remote configured (was never pushed)",
+    "F8: I4 partially violated \u2014 Playwright not installed, must use raw CDP or curl",
+    "F9: I6 confirmed \u2014 USASpending works perfectly, 486 contracts retrieved",
+    "F10: Grants.gov blocked \u2014 CloudFront 403 geo-block on sandbox IP"
+  ],
+  "timestamp": "2026-08-10T12:21:14+08:00"
+}
