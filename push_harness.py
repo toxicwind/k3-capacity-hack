@@ -3,7 +3,7 @@
 K3-CAPACITY-HACK PUSH HARNESS v1.0
 Handles upstream drift, merge without clobber, branch sync.
 Zero dependencies — uses only stdlib + subprocess.
-Usage: python3 push_harness.py <github_pat>
+Usage: python3 push_harness.py <<PAT_PLACEHOLDER>>
 """
 import subprocess, sys, json, urllib.request, urllib.parse, os
 
@@ -37,10 +37,10 @@ def api(method, path, data=None, pat=None):
         return {"error": str(e)}, 0
 
 def main():
-    pat = sys.argv[1] if len(sys.argv) > 1 else os.environ.get("GITHUB_PAT", "")
+    pat = sys.argv[1] if len(sys.argv) > 1 else os.environ.get("<PAT_ENV>", "")
     if not pat:
-        print("Usage: python3 push_harness.py <github_pat>")
-        print("   or: GITHUB_PAT=<pat> python3 push_harness.py")
+        print("Usage: python3 push_harness.py <<PAT_PLACEHOLDER>>")
+        print("   or: <PAT_ENV>=<pat> python3 push_harness.py")
         sys.exit(1)
 
     os.chdir(LOCAL)

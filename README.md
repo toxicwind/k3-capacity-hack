@@ -31,10 +31,10 @@ Private internal capacity analysis and provider integration toolkit.
 cd /mnt/agents/output/k3-capacity-hack
 
 # With PAT as argument
-python3 push_harness.py <your_github_pat>
+python3 push_harness.py <your_<PAT_PLACEHOLDER>>
 
 # With PAT from env
-GITHUB_PAT=<pat> python3 push_harness.py
+<PAT_ENV>=<pat> python3 push_harness.py
 
 # If upstream has changes (merge without clobber)
 python3 merge_resolver.py
