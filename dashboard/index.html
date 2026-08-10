@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>k3-capacity-hack Dashboard</title>
+<style>
+body{font-family:monospace;background:#0a0a0a;color:#0f0;margin:0;padding:20px}
+h1{color:#0ff;border-bottom:2px solid #0ff;padding-bottom:10px}
+.panel{background:#111;border:1px solid #333;padding:15px;margin:15px 0;border-radius:4px}
+.panel h2{color:#f0f;margin:0 0 10px 0;font-size:14px;text-transform:uppercase}
+table{width:100%;border-collapse:collapse;font-size:12px}
+th{text-align:left;color:#ff0;border-bottom:1px solid #333;padding:8px}
+td{padding:6px 8px;border-bottom:1px solid #222}
+tr:hover{background:#1a1a1a}
+.status-ok{color:#0f0}.status-warn{color:#ff0}.status-dead{color:#f00}
+.green{color:#0f0}.cyan{color:#0ff}.magenta{color:#f0f}.yellow{color:#ff0}
+#log{height:200px;overflow-y:auto;background:#000;border:1px solid #333;padding:10px;font-size:11px}
+</style>
+</head>
+<body>
+<h1>🔥 k3-capacity-hack Dashboard</h1>
+
+<div class="panel">
+<h2>Live Endpoints</h2>
+<table>
+<tr><th>Service</th><th>URL</th><th>Status</th><th>Last Check</th></tr>
+<tr><td>Kernel Server</td><td>http://127.0.0.1:8888</td><td class="status-ok">● OK</td><td id="kernel-time">-</td></tr>
+<tr><td>VNC</td><td>http://127.0.0.1:6080</td><td class="status-ok">● OK</td><td id="vnc-time">-</td></tr>
+<tr><td>CDP</td><td>http://127.0.0.1:9223</td><td class="status-ok">● OK</td><td id="cdp-time">-</td></tr>
+<tr><td>Restarter</td><td>http://127.0.0.1:18080</td><td class="status-dead">● DEAD</td><td>-</td></tr>
+<tr><td>K3 Proxy</td><td>http://127.0.0.1:19999</td><td class="status-dead">● DEAD</td><td>-</td></tr>
+</table>
+</div>
+
+<div class="panel">
+<h2>Provider Status</h2>
+<table>
+<tr><th>Provider</th><th>Credits</th><th>Strategy</th><th>Status</th></tr>
+<tr><td>Shodan</td><td class="yellow">6/100</td><td>count() + facet_scrape</td><td class="status-warn">● LOW</td></tr>
+<tr><td>GitHub API</td><td class="green">Free</td><td>search_repos + raw files</td><td class="status-ok">● OK</td></tr>
+<tr><td>USASpending</td><td class="green">Free</td><td>POST API, no auth</td><td class="status-ok">● OK</td></tr>
+<tr><td>SAM.gov</td><td class="status-dead">N/A</td><td>API dead, CDP fallback</td><td class="status-dead">● DOWN</td></tr>
+<tr><td>Grants.gov</td><td class="status-dead">N/A</td><td>Geo-blocked</td><td class="status-dead">● BLOCKED</td></tr>
+</table>
+</div>
+
+<div class="panel">
+<h2>Recompete Candidates (USASpending)</h2>
+<table id="recompete-table">
+<tr><th>Award ID</th><th>Recipient</th><th>Amount</th><th>State</th><th>End Date</th><th>Days</th></tr>
+</table>
+</div>
+
+<div class="panel">
+<h2>Shodan Greyblack Repos</h2>
+<table id="shodan-table">
+<tr><th>Repo</th><th>IPs</th><th>Ports</th></tr>
+</table>
+</div>
+
+<div class="panel">
+<h2>System Log</h2>
+<div id="log">Dashboard initialized.<br>Waiting for data...</div>
+</div>
+
+<script>
+function log(msg){
+  const d = document.getElementById('log');
+  d.innerHTML += new Date().toLocaleTimeString() + ' — ' + msg + '<br>';
+  d.scrollTop = d.scrollHeight;
+}
+function loadJSON(path, cb){
+  fetch(path).then(r=>r.json()).then(cb).catch(e=>log('ERR: '+path+' '+e));
+}
+
+// Load recompete data
+loadJSON('recompete_data.json', data => {
+  const tb = document.getElementById('recompete-table');
+  if(data.candidates){
+    data.candidates.slice(0,20).forEach(c => {
+      const cls = c.days_to_end < 0 ? 'status-dead' : (c.days_to_end < 30 ? 'status-warn' : 'green');
+      tb.innerHTML += `<tr><td>${c.award_id}</td><td>${c.recipient.substring(0,30)}</td><td>$${(c.amount/1e6).toFixed(1)}M</td><td>${c.state}</td><td>${c.end_date}</td><td class="${cls}">${c.days_to_end}d</td></tr>`;
+    });
+    log('Loaded '+data.candidates.length+' recompete candidates');
+  }
+});
+
+// Load Shodan repos
+loadJSON('shodan_repos.json', data => {
+  const tb = document.getElementById('shodan-table');
+  const repos = Object.entries(data).sort((a,b) => b[1].ips.length - a[1].ips.length);
+  repos.slice(0,20).forEach(([name, meta]) => {
+    tb.innerHTML += `<tr><td><a href="https://github.com/${name}" target="_blank">${name}</a></td><td>${meta.ips.length}</td><td>${meta.ports.join(', ')}</td></tr>`;
+  });
+  log('Loaded '+repos.length+' Shodan repos');
+});
+
+log('Dashboard ready.');
+</script>
+</body>
+</html>

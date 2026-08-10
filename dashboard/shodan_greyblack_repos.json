@@ -1,0 +1,1736 @@
+{
+  "shookalabs/exploits": {
+    "ips": [
+      "132.226.153.36",
+      "104.248.108.186",
+      "158.101.14.233",
+      "98.163.142.186",
+      "128.199.83.111",
+      "173.230.145.83",
+      "24.144.111.200",
+      "161.35.190.77",
+      "104.248.237.155",
+      "104.131.59.223",
+      "95.154.192.71",
+      "165.232.40.242"
+    ],
+    "queries": [
+      "http.html_0day_http.html_github.com",
+      "http.html_keylogger_http.html_github.com",
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_dark_web_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "github/advisory-database": {
+    "ips": [
+      "24.144.111.200",
+      "34.120.13.112"
+    ],
+    "queries": [
+      "http.html_0day_http.html_github.com",
+      "http.html_C2_http.html_github.com"
+    ]
+  },
+  "maximebf/php-debugbar": {
+    "ips": [
+      "24.144.111.200",
+      "34.120.13.112"
+    ],
+    "queries": [
+      "http.html_0day_http.html_github.com",
+      "http.html_C2_http.html_github.com"
+    ]
+  },
+  "rubysec/ruby-advisory-db": {
+    "ips": [
+      "24.144.111.200",
+      "34.120.13.112"
+    ],
+    "queries": [
+      "http.html_0day_http.html_github.com",
+      "http.html_C2_http.html_github.com"
+    ]
+  },
+  "SpiderLabs/ModSecurity": {
+    "ips": [
+      "132.226.153.36",
+      "104.248.108.186",
+      "158.101.14.233",
+      "98.163.142.186",
+      "128.199.83.111",
+      "173.230.145.83",
+      "24.144.111.200",
+      "161.35.190.77",
+      "104.248.237.155",
+      "104.131.59.223",
+      "95.154.192.71",
+      "165.232.40.242"
+    ],
+    "queries": [
+      "http.html_0day_http.html_github.com",
+      "http.html_keylogger_http.html_github.com",
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_dark_web_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "EQSTLab/CVE-2026-49975": {
+    "ips": [
+      "132.226.153.36",
+      "104.248.108.186",
+      "158.101.14.233",
+      "98.163.142.186",
+      "128.199.83.111",
+      "173.230.145.83",
+      "24.144.111.200",
+      "161.35.190.77",
+      "104.248.237.155",
+      "95.154.192.71",
+      "165.232.40.242"
+    ],
+    "queries": [
+      "http.html_0day_http.html_github.com",
+      "http.html_keylogger_http.html_github.com",
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_dark_web_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "jquery/jquery": {
+    "ips": [
+      "24.144.111.200",
+      "34.120.13.112"
+    ],
+    "queries": [
+      "http.html_0day_http.html_github.com",
+      "http.html_C2_http.html_github.com"
+    ]
+  },
+  "Ed1s0nZ/CyberStrikeAI": {
+    "ips": [
+      "156.250.205.170",
+      "138.249.133.120",
+      "156.250.184.115",
+      "156.250.184.124",
+      "156.250.196.49",
+      "156.250.196.45"
+    ],
+    "queries": [
+      "http.html_C2_http.html_github.com"
+    ]
+  },
+  "soyashinkai/PHi-C2": {
+    "ips": [
+      "134.160.144.138"
+    ],
+    "queries": [
+      "http.html_C2_http.html_github.com"
+    ]
+  },
+  "necolas/normalize.css": {
+    "ips": [
+      "192.91.216.24"
+    ],
+    "queries": [
+      "http.html_C2_http.html_github.com"
+    ]
+  },
+  "twbs/bootstrap": {
+    "ips": [
+      "34.120.13.112"
+    ],
+    "queries": [
+      "http.html_C2_http.html_github.com"
+    ]
+  },
+  "nds-org/ndslabs": {
+    "ips": [
+      "34.120.13.112"
+    ],
+    "queries": [
+      "http.html_C2_http.html_github.com"
+    ]
+  },
+  "Azure/AKS": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "nodejs/node": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "Lekensteyn/rsyncbackup": {
+    "ips": [
+      "2a02:2308::360:1:1",
+      "178.21.112.251"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "varnishcache/varnish-cache": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "golang/go": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "haproxy/haproxy": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "opensearch-project/data-prepper": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "dotnet/core": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "Netflix/security-bulletins": {
+    "ips": [
+      "178.21.112.251",
+      "132.226.153.36",
+      "158.101.14.233",
+      "104.248.108.186",
+      "85.214.110.132",
+      "128.199.83.111",
+      "2a02:2308::360:1:1"
+    ],
+    "queries": [
+      "http.html_keylogger_http.html_github.com",
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_dark_web_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "advisories/GHSA-qppj-fm5r-hxr3": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "apache/httpd-site": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "netty/netty": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "nginx/nginx": {
+    "ips": [
+      "85.214.110.132",
+      "2a02:2308::360:1:1",
+      "178.21.112.251"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_exploit_http.html_github.com",
+      "http.html_RAT_http.html_github.com"
+    ]
+  },
+  "Lekensteyn/el4000": {
+    "ips": [
+      "2a02:2308::360:1:1",
+      "178.21.112.251"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "kubernetes/kubernetes": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "nghttp2/nghttp2": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "eclipse/jetty.project": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "microsoft/CBL-Mariner": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "pwr-Solaar/Solaar": {
+    "ips": [
+      "2a02:2308::360:1:1",
+      "178.21.112.251"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "projectcontour/contour": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "linkerd/website": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "Kong/kong": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "kazu-yamamoto/http2": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "openresty/openresty": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "oqtane/oqtane.framework": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "line/armeria": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "alibaba/tengine": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "apache/trafficserver": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "apache/httpd": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "132.226.153.36",
+      "104.248.108.186",
+      "158.101.14.233",
+      "85.214.110.132",
+      "49.12.71.126",
+      "98.163.142.186",
+      "128.199.83.111",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "173.230.145.83",
+      "104.248.237.155",
+      "104.131.59.223",
+      "46.225.85.128",
+      "165.232.40.242"
+    ],
+    "queries": [
+      "http.html_keylogger_http.html_github.com",
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_dark_web_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "envoyproxy/envoy": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "Lekensteyn/ssh-blocker": {
+    "ips": [
+      "2a02:2308::360:1:1",
+      "178.21.112.251"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "grpc/grpc-go": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "micrictor/http2-rst-stream": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "tempesta-tech/tempesta": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "facebook/proxygen": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "dotnet/announcements": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "advisories/GHSA-xpw8-rcwv-8f8p": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "akka/akka-http": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "grpc/grpc": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "etcd-io/etcd": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "bcdannyboy/CVE-2023-44487": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "kubernetes/ingress-nginx": {
+    "ips": [
+      "85.214.110.132",
+      "2a02:2308::360:1:1",
+      "178.21.112.251"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_exploit_http.html_github.com",
+      "http.html_RAT_http.html_github.com"
+    ]
+  },
+  "Lekensteyn/pacemaker": {
+    "ips": [
+      "2a02:2308::360:1:1",
+      "178.21.112.251"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "apache/tomcat": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "h2o/h2o": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "Lekensteyn/netns": {
+    "ips": [
+      "2a02:2308::360:1:1",
+      "178.21.112.251"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "advisories/GHSA-vx74-f528-fxqg": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "apache/apisix": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "arkrwn/PoC": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "ninenines/cowboy": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "icing/mod_h2": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "junkurihara/rust-rpxy": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "caddyserver/caddy": {
+    "ips": [
+      "172.104.244.66",
+      "178.21.112.251",
+      "49.12.71.126",
+      "85.214.110.132",
+      "176.122.167.34",
+      "2a02:2308::360:1:1",
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_CVE-_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com",
+      "http.html_proxy_rotation_http.html_github.com",
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "LawnGnome/php-radius": {
+    "ips": [
+      "94.130.30.123",
+      "98.163.142.186"
+    ],
+    "queries": [
+      "http.html_dark_web_http.html_github.com",
+      "http.html_CVE-_http.html_github.com",
+      "http.html_exploit_http.html_github.com",
+      "http.html_ransomware_http.html_github.com"
+    ]
+  },
+  "rapid7/metasploit-framework": {
+    "ips": [
+      "98.163.142.186"
+    ],
+    "queries": [
+      "http.html_dark_web_http.html_github.com",
+      "http.html_CVE-_http.html_github.com",
+      "http.html_exploit_http.html_github.com",
+      "http.html_ransomware_http.html_github.com"
+    ]
+  },
+  "11whoami99/CVE-2024-4577": {
+    "ips": [
+      "98.163.142.186"
+    ],
+    "queries": [
+      "http.html_dark_web_http.html_github.com",
+      "http.html_CVE-_http.html_github.com",
+      "http.html_exploit_http.html_github.com",
+      "http.html_ransomware_http.html_github.com"
+    ]
+  },
+  "xcanwin/CVE-2024-4577-PHP-RCE": {
+    "ips": [
+      "98.163.142.186"
+    ],
+    "queries": [
+      "http.html_dark_web_http.html_github.com",
+      "http.html_CVE-_http.html_github.com",
+      "http.html_exploit_http.html_github.com",
+      "http.html_ransomware_http.html_github.com"
+    ]
+  },
+  "watchtowrlabs/CVE-2024-4577": {
+    "ips": [
+      "98.163.142.186"
+    ],
+    "queries": [
+      "http.html_dark_web_http.html_github.com",
+      "http.html_CVE-_http.html_github.com",
+      "http.html_exploit_http.html_github.com",
+      "http.html_ransomware_http.html_github.com"
+    ]
+  },
+  "advisories/GHSA-vxpp-6299-mxw3": {
+    "ips": [
+      "98.163.142.186"
+    ],
+    "queries": [
+      "http.html_dark_web_http.html_github.com",
+      "http.html_CVE-_http.html_github.com",
+      "http.html_exploit_http.html_github.com",
+      "http.html_ransomware_http.html_github.com"
+    ]
+  },
+  "openssl/openssl": {
+    "ips": [
+      "161.35.190.77",
+      "98.163.142.186",
+      "158.101.14.233"
+    ],
+    "queries": [
+      "http.html_dark_web_http.html_github.com",
+      "http.html_CVE-_http.html_github.com",
+      "http.html_exploit_http.html_github.com",
+      "http.html_ransomware_http.html_github.com"
+    ]
+  },
+  "nu11secur1ty/Windows11Exploits": {
+    "ips": [
+      "98.163.142.186"
+    ],
+    "queries": [
+      "http.html_dark_web_http.html_github.com",
+      "http.html_CVE-_http.html_github.com",
+      "http.html_exploit_http.html_github.com",
+      "http.html_ransomware_http.html_github.com"
+    ]
+  },
+  "php/php-src": {
+    "ips": [
+      "94.130.30.123",
+      "98.163.142.186"
+    ],
+    "queries": [
+      "http.html_dark_web_http.html_github.com",
+      "http.html_CVE-_http.html_github.com",
+      "http.html_exploit_http.html_github.com",
+      "http.html_ransomware_http.html_github.com"
+    ]
+  },
+  "XKCP/XKCP": {
+    "ips": [
+      "98.163.142.186"
+    ],
+    "queries": [
+      "http.html_dark_web_http.html_github.com",
+      "http.html_CVE-_http.html_github.com",
+      "http.html_exploit_http.html_github.com",
+      "http.html_ransomware_http.html_github.com"
+    ]
+  },
+  "apache/cordova-plugin-whitelist": {
+    "ips": [
+      "172.104.244.66"
+    ],
+    "queries": [
+      "http.html_RAT_http.html_github.com"
+    ]
+  },
+  "rdntcntrl/ratoa_gamecode": {
+    "ips": [
+      "158.178.200.145"
+    ],
+    "queries": [
+      "http.html_RAT_http.html_github.com"
+    ]
+  },
+  "Irbyz/aftershock-xe": {
+    "ips": [
+      "158.178.200.145"
+    ],
+    "queries": [
+      "http.html_RAT_http.html_github.com"
+    ]
+  },
+  "neokeld/java-fluency-fluent-bit-demo": {
+    "ips": [
+      "5.196.71.17"
+    ],
+    "queries": [
+      "http.html_RAT_http.html_github.com"
+    ]
+  },
+  "neokeld/deliverat": {
+    "ips": [
+      "5.196.71.17"
+    ],
+    "queries": [
+      "http.html_RAT_http.html_github.com"
+    ]
+  },
+  "neokeld/JavaFXDesign": {
+    "ips": [
+      "5.196.71.17"
+    ],
+    "queries": [
+      "http.html_RAT_http.html_github.com"
+    ]
+  },
+  "neokeld/archetype-to-python": {
+    "ips": [
+      "5.196.71.17"
+    ],
+    "queries": [
+      "http.html_RAT_http.html_github.com"
+    ]
+  },
+  "neokeld/JavaFXWebView": {
+    "ips": [
+      "5.196.71.17"
+    ],
+    "queries": [
+      "http.html_RAT_http.html_github.com"
+    ]
+  },
+  "zmartzone/mod_auth_openidc": {
+    "ips": [
+      "132.226.153.36",
+      "158.101.14.233",
+      "104.248.108.186",
+      "128.199.83.111",
+      "104.131.59.223"
+    ],
+    "queries": [
+      "http.html_keylogger_http.html_github.com",
+      "http.html_dark_web_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com"
+    ]
+  },
+  "DrunkenShells/Disclosures": {
+    "ips": [
+      "132.226.153.36",
+      "158.101.14.233",
+      "104.248.108.186",
+      "128.199.83.111",
+      "104.131.59.223"
+    ],
+    "queries": [
+      "http.html_keylogger_http.html_github.com",
+      "http.html_dark_web_http.html_github.com",
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com"
+    ]
+  },
+  "jasmliu/lilprinter": {
+    "ips": [
+      "104.248.108.186"
+    ],
+    "queries": [
+      "http.html_RAT_http.html_github.com"
+    ]
+  },
+  "mathjax/MathJax": {
+    "ips": [
+      "104.248.237.155"
+    ],
+    "queries": [
+      "http.html_RAT_http.html_github.com"
+    ]
+  },
+  "Sh1n0g1/ShinoProxy": {
+    "ips": [
+      "128.199.83.111"
+    ],
+    "queries": [
+      "http.html_ransomware_http.html_github.com",
+      "http.html_RAT_http.html_github.com"
+    ]
+  },
+  "msmannan00/Orion-Search": {
+    "ips": [
+      "144.76.157.34"
+    ],
+    "queries": [
+      "http.html_dark_web_http.html_github.com"
+    ]
+  },
+  "guiimoraes/CVE-2025-15467": {
+    "ips": [
+      "161.35.190.77"
+    ],
+    "queries": [
+      "http.html_dark_web_http.html_github.com"
+    ]
+  },
+  "supertestnet/examiner": {
+    "ips": [
+      "158.101.14.233"
+    ],
+    "queries": [
+      "http.html_dark_web_http.html_github.com"
+    ]
+  },
+  "jvoisin/fortify-headers": {
+    "ips": [
+      "82.67.40.122"
+    ],
+    "queries": [
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "daanx/mimalloc-bench": {
+    "ips": [
+      "82.67.40.122"
+    ],
+    "queries": [
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "lkrg-org/lkrg": {
+    "ips": [
+      "193.110.157.124"
+    ],
+    "queries": [
+      "http.html_exploit_http.html_github.com"
+    ]
+  },
+  "WicherK/TaskAI": {
+    "ips": [
+      "138.2.141.193"
+    ],
+    "queries": [
+      "http.html_keylogger_http.html_github.com"
+    ]
+  },
+  "WicherK/Spectra-Engine": {
+    "ips": [
+      "138.2.141.193"
+    ],
+    "queries": [
+      "http.html_keylogger_http.html_github.com"
+    ]
+  },
+  "WicherK/Emmet": {
+    "ips": [
+      "138.2.141.193"
+    ],
+    "queries": [
+      "http.html_keylogger_http.html_github.com"
+    ]
+  },
+  "EionRobb/purple-googlechat": {
+    "ips": [
+      "157.230.66.28"
+    ],
+    "queries": [
+      "http.html_keylogger_http.html_github.com"
+    ]
+  },
+  "niklasvh/html2canvas": {
+    "ips": [
+      "165.232.40.242"
+    ],
+    "queries": [
+      "http.html_keylogger_http.html_github.com"
+    ]
+  },
+  "ssl/ezXSS": {
+    "ips": [
+      "165.232.40.242"
+    ],
+    "queries": [
+      "http.html_keylogger_http.html_github.com"
+    ]
+  },
+  "nicklaros/ujeebu": {
+    "ips": [
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_proxy_rotation_http.html_github.com"
+    ]
+  },
+  "ujeebu/ujeebu-node": {
+    "ips": [
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_proxy_rotation_http.html_github.com"
+    ]
+  },
+  "ujeebu/ujeebu-python": {
+    "ips": [
+      "46.225.85.128"
+    ],
+    "queries": [
+      "http.html_proxy_rotation_http.html_github.com"
+    ]
+  },
+  "mahmoudps/backup.app": {
+    "ips": [
+      "49.12.71.126"
+    ],
+    "queries": [
+      "http.html_ransomware_http.html_github.com"
+    ]
+  },
+  "UNCOMN-Open-Source/cheyenne": {
+    "ips": [
+      "52.85.129.63"
+    ],
+    "queries": [
+      "http.html_ransomware_http.html_github.com"
+    ]
+  },
+  "joshhighet/ransomwatch": {
+    "ips": [
+      "35.164.43.180"
+    ],
+    "queries": [
+      "http.html_ransomware_http.html_github.com"
+    ]
+  },
+  "hannob/optionsbleed": {
+    "ips": [
+      "104.131.59.223"
+    ],
+    "queries": [
+      "http.html_ransomware_http.html_github.com"
+    ]
+  },
+  "gottburgm/Exploits": {
+    "ips": [
+      "104.131.59.223"
+    ],
+    "queries": [
+      "http.html_ransomware_http.html_github.com"
+    ]
+  },
+  "nmagill123/revshells-io": {
+    "ips": [
+      "34.228.14.217"
+    ],
+    "queries": [
+      "http.html_reverse_shell_http.html_github.com"
+    ]
+  },
+  "0dayCTF/reverse-shell-generator": {
+    "ips": [
+      "104.237.143.51",
+      "194.163.173.25"
+    ],
+    "queries": [
+      "http.html_reverse_shell_http.html_github.com"
+    ]
+  },
+  "t3l3machus/hoaxshell": {
+    "ips": [
+      "104.237.143.51",
+      "194.163.173.25"
+    ],
+    "queries": [
+      "http.html_reverse_shell_http.html_github.com"
+    ]
+  },
+  "CrowdStrike/Cloud-AWS": {
+    "ips": [
+      "20.85.162.245"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "hfiref0x/WinObjEx64": {
+    "ips": [
+      "95.154.228.49"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "swwwolf/wdbgark": {
+    "ips": [
+      "95.154.228.49"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "zodiacon/AllTools": {
+    "ips": [
+      "95.154.228.49"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "rodneyviana/netext": {
+    "ips": [
+      "95.154.228.49"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "vagnerpilar/windbgtree": {
+    "ips": [
+      "95.154.228.49"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "comaeio/SwishDbgExt": {
+    "ips": [
+      "95.154.228.49"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "anhkgg/awesome-windbg-extensions": {
+    "ips": [
+      "95.154.228.49"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "TheMalwareGuardian/Abyss": {
+    "ips": [
+      "185.165.169.222"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "TheMalwareGuardian/CVE-2026-5281": {
+    "ips": [
+      "185.165.169.222"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "TheMalwareGuardian/CVE-2025-4275": {
+    "ips": [
+      "185.165.169.222"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "TheMalwareGuardian/Liminalis": {
+    "ips": [
+      "185.165.169.222"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "TheMalwareGuardian/Paper-UEFI-Bootchain-Exploitation-Windows-Linux": {
+    "ips": [
+      "185.165.169.222"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "TheMalwareGuardian/Benthic": {
+    "ips": [
+      "185.165.169.222"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "TheMalwareGuardian/Paper-UEFI-Bootkit-Development-Windows-Linux": {
+    "ips": [
+      "185.165.169.222"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "TheMalwareGuardian/CVE-2025-70330": {
+    "ips": [
+      "185.165.169.222"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "TheMalwareGuardian/Gillyweed": {
+    "ips": [
+      "185.165.169.222"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "TheMalwareGuardian/CVE-2025-0288": {
+    "ips": [
+      "185.165.169.222"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "TheMalwareGuardian/CVE-2024-30051": {
+    "ips": [
+      "185.165.169.222"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "TheMalwareGuardian/CVE-2021-27289": {
+    "ips": [
+      "185.165.169.222"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "TheMalwareGuardian/The-Path-That-Leads-to-Your-First-CVE": {
+    "ips": [
+      "185.165.169.222"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "TheMalwareGuardian/Antarctic": {
+    "ips": [
+      "185.165.169.222"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "TheMalwareGuardian/CVE-2025-41090": {
+    "ips": [
+      "185.165.169.222"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "TheMalwareGuardian/CVE-2025-3052": {
+    "ips": [
+      "185.165.169.222"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "GameWaves/OutOfTheHole": {
+    "ips": [
+      "92.170.114.46"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "Drakwrizz/httpd": {
+    "ips": [
+      "92.170.114.46"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "Drakwrizz/minimake": {
+    "ips": [
+      "92.170.114.46"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "Drakwrizz/My_malloc": {
+    "ips": [
+      "92.170.114.46"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  },
+  "Drakwrizz/immortal": {
+    "ips": [
+      "92.170.114.46"
+    ],
+    "queries": [
+      "http.html_rootkit_http.html_github.com"
+    ]
+  }
+}
