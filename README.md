@@ -23,3 +23,30 @@ Private internal capacity analysis and provider integration toolkit.
 - VNC: http://127.0.0.1:6080
 - CDP: http://127.0.0.1:9223
 - K3 Proxy: http://127.0.0.1:19999
+
+
+## Push Workflow
+
+```bash
+cd /mnt/agents/output/k3-capacity-hack
+
+# With PAT as argument
+python3 push_harness.py <your_github_pat>
+
+# With PAT from env
+GITHUB_PAT=<pat> python3 push_harness.py
+
+# If upstream has changes (merge without clobber)
+python3 merge_resolver.py
+```
+
+### Upstream Drift Handling
+- `push_harness.py` detects if origin/main has diverged
+- If local is ancestor: merges upstream into local, then pushes
+- If divergent: merges with `--no-edit`, aborts on conflicts
+- Uses `--force-with-lease` to prevent clobbering upstream commits
+
+### Branch Strategy
+- Local: `main`
+- Upstream: `origin/main`
+- No feature branches — single trunk for this internal repo
