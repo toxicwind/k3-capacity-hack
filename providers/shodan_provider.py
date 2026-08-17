@@ -1,31 +1,30 @@
 #!/usr/bin/env python3
-"""Shodan provider — zero-credit strategies."""
-import json, urllib.request, urllib.parse, re, os
+"""Shodan provider — zero-credit strategies, key optional."""
+import json, urllib.request, urllib.parse, re, os, time
 
 KEY = os.environ.get("SHODAN_KEY", "")
-OUT = os.environ.get("SHODAN_OUT", "/mnt/agents/output/shodan_greyblack")
 
 def count(query):
-    """FREE — validates query without spending credits."""
+    """FREE with key — validates query without spending credits."""
     if not KEY:
-        return {"error": "no key"}
+        return {"total": 0, "note": "no SHODAN_KEY set", "query": query}
     url = f"https://api.shodan.io/shodan/host/count?key={KEY}&query={urllib.parse.quote(query)}"
     try:
         with urllib.request.urlopen(url, timeout=8) as r:
             return json.loads(r.read().decode())
     except Exception as e:
-        return {"error": str(e)}
+        return {"total": 0, "error": str(e), "query": query}
 
 def search(query, limit=10):
-    """Costs 1 credit per query. Use sparingly."""
+    """Costs 1 credit per query. Skipped if no key."""
     if not KEY:
-        return {"error": "no key"}
+        return {"matches": [], "note": "no SHODAN_KEY set", "query": query}
     url = f"https://api.shodan.io/shodan/host/search?key={KEY}&query={urllib.parse.quote(query)}&limit={limit}&minify=True"
     try:
         with urllib.request.urlopen(url, timeout=10) as r:
             return json.loads(r.read().decode())
     except Exception as e:
-        return {"error": str(e)}
+        return {"matches": [], "error": str(e), "query": query}
 
 def facet_scrape(query, facet="org"):
     """FREE — uses public facet pages, no API key needed."""
@@ -33,30 +32,26 @@ def facet_scrape(query, facet="org"):
     try:
         with urllib.request.urlopen(url, timeout=10) as r:
             html = r.read().decode()
-        # Extract facet values from HTML
-        vals = re.findall(r'<div class="facet-name">([^<]+)</div>.*?<div class="facet-count">(\d+)</div>', html, re.DOTALL)
-        return {"facet": facet, "values": [{"name": v[0].strip(), "count": int(v[1])} for v in vals[:50]]}
+        vals = re.findall(r'facet-name[^>]*>([^<]+)</div>.*?facet-count[^>]*>([^<]+)</div>', html, re.S)
+        return {"facet": facet, "query": query, "results": [{"name": v[0].strip(), "count": v[1].strip()} for v in vals[:20]]}
     except Exception as e:
-        return {"error": str(e)}
+        return {"facet": facet, "query": query, "error": str(e), "results": []}
 
-def extract_github_repos(matches):
-    """Extract GitHub repos from Shodan match banners."""
-    repos = {}
-    for m in matches:
-        banner = json.dumps(m)
-        found = re.findall(r'github\.com/([a-zA-Z0-9_.-]+/[a-zA-Z0-9_.-]+)', banner)
-        for r in found:
-            if r not in repos:
-                repos[r] = {"ips": set(), "queries": set(), "ports": set()}
-            repos[r]["ips"].add(m.get("ip_str", ""))
-            repos[r]["ports"].add(str(m.get("port", "")))
-    return {k: {**v, "ips": list(v["ips"]), "ports": list(v["ports"])} for k, v in repos.items()}
+def free_summary():
+    """Run all free methods without key."""
+    queries = [
+        'http.html:"exploit"',
+        'http.html:"CVE-2026"',
+        'http.html:"0day"',
+        'http.html:"C2"',
+        'http.html:"RAT"',
+    ]
+    out = {}
+    for q in queries:
+        out[q] = count(q)
+        time.sleep(0.3)
+    out["facets"] = facet_scrape("apache", "org")
+    return out
 
 if __name__ == "__main__":
-    import sys
-    if len(sys.argv) < 2:
-        print("Usage: python3 shodan_provider.py <query>")
-        exit(1)
-    q = sys.argv[1]
-    c = count(q)
-    print(json.dumps(c, indent=2))
+    print(json.dumps(free_summary(), indent=2))
