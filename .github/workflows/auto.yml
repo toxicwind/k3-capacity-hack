@@ -3,16 +3,53 @@ on:
   schedule:
     - cron: '0 */6 * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+
+env:
+  SHODAN_KEY: ${{ secrets.SHODAN_KEY }}
+  PYTHONUNBUFFERED: "1"
+
 jobs:
   run:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python3 src/runner.py
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Create dashboard directory
+        run: mkdir -p dashboard
+
+      - name: Run k3-capacity-hack
+        run: python3 src/runner.py
+
+      - name: List dashboard contents
+        run: ls -la dashboard/
+
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
-          name: results
+          name: k3-results-${{ github.run_id }}
           path: dashboard/*.json
+          if-no-files-found: warn
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## k3-capacity-hack Results" >> $GITHUB_STEP_SUMMARY
+          if [ -f dashboard/summary.json ]; then
+            echo '```json' >> $GITHUB_STEP_SUMMARY
+            cat dashboard/summary.json >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          else
+            echo "No summary generated" >> $GITHUB_STEP_SUMMARY
+          fi
