@@ -1,0 +1,3 @@
+# k3-capacity-hack dependencies
+# Pure stdlib — no external packages needed for core functionality
+# Add here if providers need external libs
