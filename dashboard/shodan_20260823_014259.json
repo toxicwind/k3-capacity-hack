@@ -1,0 +1,33 @@
+{
+  "http.html:\"exploit\"": {
+    "total": 0,
+    "note": "no SHODAN_KEY set",
+    "query": "http.html:\"exploit\""
+  },
+  "http.html:\"CVE-2026\"": {
+    "total": 0,
+    "note": "no SHODAN_KEY set",
+    "query": "http.html:\"CVE-2026\""
+  },
+  "http.html:\"0day\"": {
+    "total": 0,
+    "note": "no SHODAN_KEY set",
+    "query": "http.html:\"0day\""
+  },
+  "http.html:\"C2\"": {
+    "total": 0,
+    "note": "no SHODAN_KEY set",
+    "query": "http.html:\"C2\""
+  },
+  "http.html:\"RAT\"": {
+    "total": 0,
+    "note": "no SHODAN_KEY set",
+    "query": "http.html:\"RAT\""
+  },
+  "facets": {
+    "facet": "org",
+    "query": "apache",
+    "error": "HTTP Error 403: Forbidden",
+    "results": []
+  }
+}
