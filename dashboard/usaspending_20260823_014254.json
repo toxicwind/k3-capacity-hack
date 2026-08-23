@@ -1,0 +1,246 @@
+{
+  "count": 32,
+  "total_results": 50,
+  "candidates": [
+    {
+      "award_id": "DOCDG133E09CN0094",
+      "recipient": "L3HARRIS TECHNOLOGIES, INC.",
+      "end_date": "2024-01-31",
+      "amount": 1826088581.86,
+      "agency": "Department of Commerce",
+      "naics": {
+        "code": "541512",
+        "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+      },
+      "description": "THE PURPOSE OF THIS CONTRACT IS TO DEVELOP THE GROUND SYSTEM THAT WILL SUPPORT NOAA S NEXT GENERATION GEOSTATIONARY SATELLITE SERIES, GOES-R. THIS NEW SERIES OF SPACECRAFT, SET TO BEGIN LAUNCHING IN 2"
+    },
+    {
+      "award_id": "DOC003",
+      "recipient": "T-REX SOLUTIONS LLC",
+      "end_date": "2023-09-20",
+      "amount": 1480169956.14,
+      "agency": "Department of Commerce",
+      "naics": {
+        "code": "541512",
+        "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+      },
+      "description": "IGF::OT::IGF  ENTERPRISE SOLUTIONS FRAMEWORK (ESF) FOR MULTI-TIERED ACQUISITION FRAMEWORK FOR SYSTEMS ENGINEERING AND INTEGRATION - PROGRAM TIER WORK ORDER 003 - 2020 CENSUS TECHNICAL INTEGRATOR"
+    },
+    {
+      "award_id": "36C10B22N0051EHRM",
+      "recipient": "ORACLE HEALTH GOVERNMENT SERVICES, INC.",
+      "end_date": "2026-10-24",
+      "amount": 1424879474.43,
+      "agency": "Department of Veterans Affairs",
+      "naics": {
+        "code": "541512",
+        "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+      },
+      "description": "EHRM WAVES K, L, M (VISN 23) AND N, O (VISN 15) DEPLOYMENTS"
+    },
+    {
+      "award_id": "47QFCA21F0018",
+      "recipient": "BOOZ ALLEN HAMILTON INC",
+      "end_date": "2025-02-15",
+      "amount": 1379603153.12,
+      "agency": "General Services Administration",
+      "naics": {
+        "code": "541512",
+        "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+      },
+      "description": "TASK ORDER (TO) 47QFCA21F0018 IS HEREBY AWARDED TO BOOZ ALLEN HAMILTON, INC. (BAH) TO PROVIDE ENTERPRISE LEVEL DATA TO THE OUSD(C), AND ITS STRATEGIC PARTNERS (I.E., DOD FOURTH ESTATE, DOD DEPARTMENTS"
+    },
+    {
+      "award_id": "36C10B21N10070021",
+      "recipient": "BOOZ ALLEN HAMILTON INC",
+      "end_date": "2026-08-07",
+      "amount": 1365285599.63,
+      "agency": "Department of Veterans Affairs",
+      "naics": {
+        "code": "541512",
+        "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+      },
+      "description": "TRANSFORMATION TWENTY-ONE TOTAL TECHNOLOGY NEXT GENERATION (T4NG) TASK ORDER - BENEFITS INTEGRATED DELIVERY"
+    },
+    {
+      "award_id": "47QFCA21F0001",
+      "recipient": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+      "end_date": "2026-11-27",
+      "amount": 1199275197.76,
+      "agency": "General Services Administration",
+      "naics": {
+        "code": "541512",
+        "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+      },
+      "description": "THE SCOPE OF THE TO IS TO PROVIDE ENTERPRISE IT SERVICES FOR THE USACE."
+    },
+    {
+      "award_id": "75FCMC18F0045",
+      "recipient": "SERCO INC",
+      "end_date": "2023-06-30",
+      "amount": 1032865950.58,
+      "agency": "Department of Health and Human Services",
+      "naics": {
+        "code": "541512",
+        "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+      },
+      "description": "ELIGIBILITY SUPPORT"
+    },
+    {
+      "award_id": "47QFCA19F0006",
+      "recipient": "CACI, INC. - FEDERAL",
+      "end_date": "2026-11-19",
+      "amount": 974169904.37,
+      "agency": "General Services Administration",
+      "naics": {
+        "code": "541512",
+        "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+      },
+      "description": "IGF::OT::IGF"
+    },
+    {
+      "award_id": "91003119F0003",
+      "recipient": "ACCENTURE FEDERAL SERVICES LLC",
+      "end_date": "2027-02-19",
+      "amount": 942267915.41,
+      "agency": "Department of Education",
+      "naics": {
+        "code": "541512",
+        "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+      },
+      "description": "THIS TASK ORDER IS FOR AN ENTERPRISE-WIDE DIGITAL AND CUSTOMER CARE PLATFORMS AND SERVICES SOLUTION (ENTERPRISE-WIDE DIGITAL AND CUSTOMER CARE SOLUTION, AKA EWDCCPS, AKA DCC) THAT WILL ENABLE AN FSA-B"
+    },
+    {
+      "award_id": "36C10B22N10070023",
+      "recipient": "BOOZ ALLEN HAMILTON INC",
+      "end_date": "2027-01-15",
+      "amount": 859669885.97,
+      "agency": "Department of Veterans Affairs",
+      "naics": {
+        "code": "541512",
+        "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+      },
+      "description": "NEW TO - EHRM PMO IO SUPPORT"
+    },
+    {
+      "award_id": "47QFCA20F0010",
+      "recipient": "CACI, INC. - FEDERAL",
+      "end_date": "2024-09-29",
+      "amount": 824303222.05,
+      "agency": "General Services Administration",
+      "naics": {
+        "code": "541512",
+        "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+      },
+      "description": "BEAGLE TASK ORDER AWARD"
+    },
+    {
+      "award_id": "36C10B19N10070015",
+      "recipient": "BOOZ ALLEN HAMILTON INC",
+      "end_date": "2025-01-22",
+      "amount": 809754946.8,
+      "agency": "Department of Veterans Affairs",
+      "naics": {
+        "code": "541512",
+        "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+      },
+      "description": "IGF::OT::IGF  INFORMATION TECHNOLOGY OPERATIONS AND SERVICES TRANSFORMATION SUPPORT SERVICES"
+    },
+    {
+      "award_id": "19AQMM21F2945",
+      "recipient": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+      "end_date": "2025-05-08",
+      "amount": 805559930.65,
+      "agency": "Department of State",
+      "naics": {
+        "code": "541512",
+        "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+      },
+      "description": "THE TASK ORDER IS FOR INFORMATION TECHNOLOGY ENGINEERING AND ARCHITECTURE (LEAD INTEGRATOR)."
+    },
+    {
+      "award_id": "75FCMC21F0002",
+      "recipient": "ACCENTURE FEDERAL SERVICES LLC",
+      "end_date": "2027-01-10",
+      "amount": 796233862.71,
+      "agency": "Department of Health and Human Services",
+      "naics": {
+        "code": "541512",
+        "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+      },
+      "description": "FEDERALLY FACILITATED EXCHANGE (FFE)"
+    },
+    {
+      "award_id": "36C10B18F0278",
+      "recipient": "CGI FEDERAL INC.",
+      "end_date": "2026-07-01",
+      "amount": 783318157.08,
+      "agency": "Department of Veterans Affairs",
+      "naics": {
+        "code": "541512",
+        "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+      },
+      "description": "AWARD - TO RE-OBLIGATE FUNDS USDA DE-OBLIGATED TO"
+    },
+    {
+      "award_id": "47QFRA20F0016",
+      "recipient": "BOOZ ALLEN HAMILTON INC",
+      "end_date": "2024-04-30",
+      "amount": 746401206.1,
+      "agency": "General Services Administration",
+      "naics": {
+        "code": "541512",
+        "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+      },
+      "description": "THE PURPOSE OF THIS MODIFICATION IS TO ACCEPT TRANSFER OF TASK ORDER (47QFCA18F0100) FROM FEDSIM TO GSA AAS REGION 8. THE NEW PIID IS 47QFRA20F0016."
+    },
+    {
+      "award_id": "36C10B21N10150057",
+      "recipient": "BOOZ ALLEN HAMILTON INC",
+      "end_date": "2027-01-23",
+      "amount": 713794280.57,
+      "agency": "Department of Veterans Affairs",
+      "naics": {
+        "code": "541512",
+        "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+      },
+      "description": "THE CONTRACTOR SHALL PROVIDE SHIPPABLE PRODUCTS, OPERATIONS SUPPORT, AND SECURITY COMPLIANCE FOR THE HEALTH SERVICES PORTFOLIO."
+    },
+    {
+      "award_id": "47QFRA19F0011",
+      "recipient": "CACI, INC. - FEDERAL",
+      "end_date": "2024-04-30",
+      "amount": 708253079.87,
+      "agency": "General Services Administration",
+      "naics": {
+        "code": "541512",
+        "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+      },
+      "description": "DYNAMIC AND EVOLVING FEDERAL ENTERPRISE NETWORK DEFENSE GROUP A DEFEND A  OPTION EXERCISE AND TRANSFER FROM PIID 47QFCA18F0050"
+    },
+    {
+      "award_id": "47QFCA20F0015",
+      "recipient": "PERATON ENTERPRISE SOLUTIONS LLC",
+      "end_date": "2026-12-17",
+      "amount": 682369225.07,
+      "agency": "General Services Administration",
+      "naics": {
+        "code": "541512",
+        "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+      },
+      "description": "THE PURPOSE OF THIS TASK ORDER AWARD IS TO OBLIGATE $25,500,000.00 TO THE CONSULAR AFFAIRS ENTERPRISE INFRASTRUCTURE OPERATIONS REQUIREMENT."
+    },
+    {
+      "award_id": "47QFMA19F0013",
+      "recipient": "CACI, INC. - FEDERAL",
+      "end_date": "2024-05-31",
+      "amount": 674443628.74,
+      "agency": "General Services Administration",
+      "naics": {
+        "code": "541512",
+        "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+      },
+      "description": "COMMUNICATION AND INFORMATION TECHNOLOGY SERVICES III"
+    }
+  ]
+}
